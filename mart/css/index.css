@@ -1,0 +1,251 @@
+@charset "utf-8" ;
+html {
+	font:12px '微软雅黑';
+}
+a {
+	color: #000;
+}
+.top {
+	background-color: #f7f7f7;
+	height: 26px;
+	border-bottom: 1px solid #d8d8d8;
+
+}
+.top_page {
+	width: 970px;
+	height: 26px;
+	margin: 0 auto;
+}
+.top_page_l {
+	line-height: 26px;
+	color: #333;
+}
+.top_page_r ul li{
+	float: left;
+	padding-left: 10px;
+	line-height: 26px;
+}
+.top_page_r ul li a {
+	color: #333;
+}
+.top_page_r ul li s {
+	width: 14px;
+	height: 12px;
+	background: url(../images/sprite.png) ;
+	display: inline-block;
+	vertical-align: middle;
+}
+.logo {
+	width: 970px;
+	height: 98px;
+	margin: 0 auto;
+
+}
+.logo_l {
+	width: 160px;
+	height: 55px;
+	margin: 24px 0 19px 9px;
+	background: url(../images/sprite.png) -35px 0;
+	text-indent: -1000em;
+}
+.logo_r {
+	width: 528px;
+	height: 40px;
+	/*border:1px solid #ddd;*/
+	margin-top: 29px;
+}
+.logo_r_content {
+	margin:5px 5px 5px 4px;
+}
+.logo_r_search {
+	width: 418px;
+	height: 28px;
+	border:1px solid #c9c9c9;
+	color: #999;
+}
+.logo_r_btn {
+	width: 99px;
+	height: 30px;
+	background-color: skyblue;
+	color: white;
+}
+.nav {
+	width: 970px;
+	height: 25px;
+	margin: 0 auto;
+	border-bottom: 2px solid skyblue;
+}
+.nav li {
+	float: left;
+	padding: 0 15px 0 15px;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	/*color: blue;a标签不能继承li*/
+}
+.nav li a {
+	color: skyblue;
+}
+.nav li:hover {
+	background-color: skyblue;
+}
+.nav li:hover a {
+	color: white;
+}
+.banner {
+	width: 970px;
+	height: 210px;
+	margin:0 auto;
+	margin-top: 10px;
+	
+}
+.subNav {
+	width: 200px;
+	height: 210px;
+	margin-right: 10px;
+
+}
+.subNav h2 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: skyblue;
+	color: white;
+	padding-left: 20px;
+}
+.subNav s {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../images/sprite.png) -195px 0;
+	vertical-align: middle;/*小图标居中*/
+	margin-right: 10px;
+}
+.subNav ul {
+	height: 180px;
+	background: #ebf0f6;
+}
+.subNav li {
+	margin-left: 9px;
+	font-size: 13px;
+	padding-top: 10px;
+}
+.subNav a {
+	color: #666;
+}
+.ad {
+	width: 520px;
+	height: 210px;
+	background: url(../images/ad.png);
+
+}
+.message {
+	width: 230px;
+	height: 210px;
+}
+.message_top {
+	height: 95px;
+	border: 1px solid #ddd;
+	background: #f7faff;
+	margin-bottom: 21px;
+}
+.message_top s {
+	margin: 20px 10px 0 18px;
+	display: inline-block;
+	background: url(../images/sprite.png) -214px 0;
+	width: 40px;
+	height: 40px;
+	vertical-align: middle;
+}
+.message_top p:last-child {
+	margin-top: 20px;
+	color: #999;
+}
+.message_top a {
+	color: #666;
+}
+.message_top .fw {
+	font-weight: bold;
+	padding: 7px 0 0 18px;
+	color: skyblue;
+
+}
+.message_bottom {
+	height: 92px;
+	background: #f7f7f7;
+}
+.message_bottom s {
+	margin:12px 10px 0 50px;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	background: url(../images/sprite.png) -254px 0;
+}
+.message_bottom .fw {
+	font-weight: bold;
+	padding: 7px 0 0 18px;
+	color: skyblue;
+}
+.message_bottom .pn {
+	margin-top: 12px;
+	font-size: 16px;
+	color: skyblue;
+	line-height: 16px;
+}
+.message_bottom .call {
+	margin-top: 8px;
+	width: 230px;
+	text-align: center;/*div中a标签水平居中*/
+	
+}
+.message_bottom .call a {
+	display: inline-block;
+	height: 25px;
+	width: 80px;
+	background: skyblue;
+	line-height: 25px;
+	border-radius: 5px;
+	color: white;
+}
+.material {
+	width: 950px;
+	margin:0 auto;
+	height: 34px;
+	margin-top: 14px;
+	padding-left: 20px;
+	border-top:2px solid #c3d7e4;
+	line-height: 34px; 
+	background: #ecf1f7;
+	font-weight: bold;
+}
+.product {
+	width: 970px;
+	height: 345px;
+	background: pink;
+	margin:0 auto;
+	margin-top: 12px;
+}
+.product .product_l {
+	width: 738px;
+	height: 345px;
+	background: red;
+	border: 1px solid #d8d8d8;
+}
+.product .product_l_top {
+	height: 155px;
+	width: 712px;
+	background: yellow;
+	padding: 17px 0 0 26px;
+}
+.product .p_l_t_1 {
+	width: 350px;
+	height: 146px;
+	background: blue;
+}
+.product .product_r {
+	width: 230px;
+	height: 345px;
+	background: green;
+}
