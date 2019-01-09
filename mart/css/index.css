@@ -9,7 +9,9 @@ a {
 	background-color: #f7f7f7;
 	height: 26px;
 	border-bottom: 1px solid #d8d8d8;
-
+	position: fixed;
+	top: 0px;
+	width: 100%;
 }
 .top_page {
 	width: 970px;
@@ -39,7 +41,7 @@ a {
 	width: 970px;
 	height: 98px;
 	margin: 0 auto;
-
+	margin-top: 26px;
 }
 .logo_l {
 	width: 160px;
